@@ -62,6 +62,22 @@ This portfolio is built using the following technologies:
 
 ---
 
+## 🧩 Customization & Ownership
+
+This portfolio is based on an open-source React template.
+I have customized and extended it by:
+
+- Personalizing all content (projects, resume, about section)
+- Adding my academic and personal projects
+- Integrating my GitHub repositories
+- Cleaning and restructuring components
+- Updating assets, images, and UI content
+
+Full credit for the original template goes to:
+Soumyajit Behera — https://github.com/soumyajit4419
+
+---
+
 ## 🚀 Getting Started
 
 Clone the repository and install dependencies:

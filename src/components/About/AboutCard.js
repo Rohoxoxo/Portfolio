@@ -7,42 +7,44 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
-            <br />
-            <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
-          </p>
+        <p style={{ textAlign: "justify" }}>
+  Hi everyone! I’m <span className="purple">Rohit Chandel</span> from{" "}
+  <span className="purple">India</span>.
+  <br />
+  I’m currently a{" "}
+  <span className="purple">Computer Science undergraduate</span> in my{" "}
+  <span className="purple">final semester</span> and will be graduating in May 2026.
+  <br />
+  I’m actively seeking{" "}
+  <span className="purple">entry-level Software Engineering / Cloud roles</span>.
+  <br />
+  <br />
+  Outside of coding, I love engaging in activities that keep me motivated
+  and disciplined:
+</p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
+<ul>
+  <li className="about-activity">
+    <span className="purple">🏋️‍♂️</span> Training and pushing my limits in the gym
+  </li>
+  <li className="about-activity">
+    <span className="purple">📖</span> Reading self-development and mindset books
+  </li>
+  <li className="about-activity">
+    <span className="purple">🎮</span> Playing Games 
+  </li>
+</ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+<p style={{ color: "rgb(155 126 172)" }}>
+    "Strive to build things that make a real difference."
+  </p>
+  <footer className="blockquote-footer">Rohit</footer>
+
         </blockquote>
       </Card.Body>
     </Card>
   );
 }
+
 
 export default AboutCard;
